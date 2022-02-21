@@ -3,10 +3,12 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
  // Defining a variable
- $gray: #F4F4F4;
+ $white: white;
+ $font: Arial, sans-serif;
 
  body {
-   background: $gray; // Using this variable
+   background: $white; // Using this variable
+   font-family: $font;
  }
 
  .banner {
@@ -17,8 +19,21 @@
 }
 
 a {
-  color: grey;
+  color: navy;
+  font-family: $font;
+  font-size: small;
   &:hover {
     color: black;
   }
+}
+
+.para {
+  border-left: 4px solid #DDDDDD;
+  padding-left: 4px;
+  font-family: $font;
+}
+
+#answer {
+  background-color: #FFFEE0;
+  font-family: $font;
 }
